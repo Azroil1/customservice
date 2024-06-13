@@ -15,6 +15,10 @@ public class CustomerUserDetail implements UserDetails {
         this.user = user;
     }
 
+    public int getCustomerId(){
+        return user.getId();
+    }
+
     public String getBankAccountId() {
         return user.getBankAccountId();
     }

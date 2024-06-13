@@ -24,3 +24,9 @@ spring:
 logging:
   level:
     ru.mtsbank.customservice: info
+jwt:
+  secret: YWRhcGRra29rc2xzZGtvZWtkZGxrdm1pbWlmanZrZnZtZm12bWdqa3ZkanNvaWZqaW9jbXNka2xjdmtm
+eureka:
+  client:
+    service-url:
+      defaultZone: http://host.docker.internal:8888/eureka/
